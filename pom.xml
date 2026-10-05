@@ -106,6 +106,7 @@
     </dependencies>
 
     <build>
+        <finalName>jobtrackr</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
