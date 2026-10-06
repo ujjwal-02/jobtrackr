@@ -54,7 +54,8 @@ public class SecurityConfig {
         config.setAllowedOrigins(List.of(
                 "http://localhost:5173",
                 "https://gitscope.vercel.app",
-                "${FRONTEND_URL:http://localhost:5173}"
+                "${FRONTEND_URL:http://localhost:5173}",
+                "https://jobtrackr-frontend-henna.vercel.app"
         ));
 
         config.setAllowedMethods(
